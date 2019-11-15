@@ -3,6 +3,8 @@
 
 section .data
 
+; change numbers below when needed
+
 first_number  DD 0xABCDEF
 second_number DD 0xFFFFFFFF
 product       DQ 0x0
