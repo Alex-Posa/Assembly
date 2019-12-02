@@ -18,6 +18,18 @@ start:
     ;---- fill in your code below ---
     ;MOV STUFF AROUND
     ; 0000h , wir brauchen nur 2 bytes weil wir ohne segments arbeiten
+    
+    ;cli
+
+        ;Offset
+        ;Die Adresse unserer Interrupt Service Routine
+
+        ;mov WORD [es:0], __int0x00
+
+    ;sti  
+    ;jmp isr0
+    
+    
     ;---- fill in your code above ---
     sti 
 
@@ -28,6 +40,12 @@ start:
     ;   TASK: perform a calculation that triggers interrupt 0 without using the "int" command.
     ;   QUESTION: why is it looping?
     ;---- fill in your code below ---
+    
+    ;in(something)
+    
+    
+    ;out(something)
+
 
     ;---- fill in your code above ---
 
@@ -72,4 +90,3 @@ output:
 section .magic start=(org_address + 510)
 db 0x55
 db 0xaa
-
