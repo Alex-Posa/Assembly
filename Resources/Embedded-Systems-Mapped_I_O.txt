@@ -1,1 +1,3 @@
 link to a explanation of the difference between memory mapped I/O and Port mapped I/O
+
+https://bogotobogo.com/Embedded/memory_mapped_io_vs_port_mapped_isolated_io.php
